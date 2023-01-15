@@ -4,7 +4,7 @@
 
 }
 
-/* header section */
+/*---------------------- --------------------- header section styles -----------------------------------------------*/
 header {
     background: rgba(255, 144, 14, 0.1);
     height: 1322px;
@@ -21,21 +21,19 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   margin-right: 146px;
-   margin-top: 63px;
-   height: 26px;
-   width: 477px;
+    margin-right: 146px;
+    margin-top: 63px;
+    height: 26px;
+    width: 477px;
 }
 
 nav li {
     list-style: none;
     font-weight: 500;
-font-size: 18px;
-
-color: #424242;
-margin-left: 0px;
+    font-size: 18px;
+    color: #424242;
+    margin-left: 0px;
 }
-
 
 .nav-title {
     font-weight: 700;
@@ -46,21 +44,20 @@ margin-left: 0px;
     margin-left: 123px;
 }
 
-
-
-.banner-div{
+/* --------------------------------------------- Header Banner Styles -------------------------------------------- */
+.banner-div {
     text-align: center;
-   
-
 }
-.banner-head{
+
+.banner-head {
     font-weight: 700;
     font-size: 64px;
     color: #131313;
     margin-left: 427px;
     margin-right: 439px;
 }
-.banner-pr{
+
+.banner-pr {
     font-size: 16px;
     font-weight: 400;
     color: #727272;
@@ -69,7 +66,8 @@ margin-left: 0px;
     margin-left: 490px;
     margin-right: 439px;
 }
-.banner-btn{
+
+.banner-btn {
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
@@ -82,26 +80,20 @@ margin-left: 0px;
     margin-right: 727px;
 }
 
-.banner-image{
+.banner-image {
     margin-right: 150px;
     margin-left: 330px;
 }
 
+/*--------------------------------- Quick list of Our Features Section Styles -------------------------------------- */
 
-
-
-
-
-
-
-.quick-list{
+.quick-list {
     display: flex;
     align-items: center;
     margin-bottom: 130px;
-    
 }
 
-.quick-list-image{
+.quick-list-image {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
@@ -109,20 +101,20 @@ margin-left: 0px;
     margin-right: 73px;
 }
 
-.quick-list-hd{
+.quick-list-hd {
     font-weight: 500;
     font-size: 45px;
 }
 
-.quick-list-hd-1{
+.quick-list-hd-1 {
     color: #727272;
 }
 
-.quick-list-hd-2{
+.quick-list-hd-2 {
     color: #FF900E;
 }
 
-.quick-list-pr{
+.quick-list-pr {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -130,7 +122,7 @@ margin-left: 0px;
     margin-bottom: 24px;
 }
 
-.quick-list-btn{
+.quick-list-btn {
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
@@ -140,47 +132,254 @@ margin-left: 0px;
     border-style: none;
 }
 
-.quick-list-feature{
+.quick-list-feature {
     margin-right: 301px;
 }
 
+/* ------------------------------ Features you will love & enjoy Section Styles -------------------------------- */
 
-
-.architect-features-section{
+.architect-features-section {
     display: flex;
-    
+
 }
 
-.architect-features-info{
+.architect-features-info {
     margin-right: 54px;
     margin-left: 240px;
+    width: 586px;
+    height: 982px;
 }
 
-.architect-features-image{
-    margin-right: 240px;
+.architect-features-image {
+    width: 850px;
+    height: 1089px;
+    margin-bottom: 130px;
 }
 
-.architect-feature-hd{
+.architect-features-image .architect-features-image-btn {
+    transform: translate(-12px, -156px);
+}
+
+.image-architect {
+    padding-left: 140px;
+}
+
+.architect-feature-hd {
+    width: 468px;
+    height: 106px;
     font-weight: 700;
     font-size: 45px;
     color: #131313;
-    border-left: 3px solid #FF900E;
+    border-left: 6px solid #FF900E;
+    margin-bottom: 24px;
 }
 
-.architect-feature-pr{
+.architect-feature-pr {
+    width: 586px;
+    height: 78px;
     color: #727272;
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 30px;
 }
 
-.architect-feature-hd-1{
+.architect-feature-hd-1 {
     font-weight: 600;
-font-size: 20px;
-color: #131313;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
 }
 
-.architect-feature-pr-1{
+.architect-feature-pr-1 {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.architect-feature-div {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 40px 30px 30px;
+
+}
+
+.architect-features-image-btn {
+    width: 342px;
+    height: 200px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border-style: none;
+    padding: 45px 42px;
+
+}
+
+.image-btn {
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.img-btn-exp {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* ---------------------------------------------- Some Facts Section Styles ------------------------------------------- */
+
+.some-fact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 290px;
+    margin-bottom: 180px;
+    margin-right: 290px;
+    gap: 116px;
+}
+
+.some-fact {
+    margin-left: 240px;
+}
+
+.some-fact-hd {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.some-fact-pr {
+    width: 542px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.some-face-item {
+    width: 242px;
+    height: 242px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+
+
+}
+
+.some-fact-item-hd {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.some-fact-item-pr {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+
+}
+
+.some-fact-item-div {
+    padding: 46px 37px 60px 36px;
+}
+
+/* ----------------------------------------------- Our Sponsors Section Styles ----------------------------------------*/
+
+
+.sponsors-section {
+    text-align: center;
+}
+
+.sponsors-section-hd {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.sponsors-section-pr {
+    width: 542px;
+    height: 52px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 689px;
+    margin-right: 689px;
+    margin-bottom: 50px;
+
+}
+
+.sponsors-images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 130px;
+}
+
+.images-png {
+    -webkit-filter: grayscale(100%);
+
+}
+
+/* ---------------------------------------------- Best Building Section Styles ------------------------------------- */
+
+.best-building{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.best-building-img{
+    margin-left: 240px;
+}
+
+.best-building-info{
+    margin-right: 240px;
+}
+
+.best-building-hd{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 24px;
+}
+
+.best-building-pr{
+    width: 660px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #727272;
+    margin-bottom: 18px;
+}
+
+.best-building-btn{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 21px 24px 20px 25px;
+    border-style: none;
+}
+/*-------------------------------------- Footer Section Styles ------------------------------------------------------ */
+
+.footer-pr {
+    font-weight: 400;
+    font-size: 18px;
+    color: #424242;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: center;
+    padding: 39px 400px 39px 400px;
+    margin-bottom: 210px;
 }
