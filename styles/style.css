@@ -289,7 +289,7 @@ li a {
 .item:hover{
     background-color: #a79191;
     transform: scale(1.2) rotate(360deg);
-    transition: 4s all ease ;
+    transition: 3s all ease;
     cursor: pointer;
     
 
