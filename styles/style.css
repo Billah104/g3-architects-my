@@ -34,6 +34,10 @@ nav li {
     color: #424242;
     margin-left: 0px;
 }
+li a {
+    text-decoration: none;
+    color: #131313;
+}
 
 .nav-title {
     font-weight: 700;
@@ -78,6 +82,11 @@ nav li {
     margin-bottom: 70px;
     margin-left: 663px;
     margin-right: 727px;
+}
+.banner-btn:hover{
+    background-color: #FFF4E7;
+    color: #FF900E;
+    
 }
 
 .banner-image {
@@ -130,6 +139,11 @@ nav li {
     border-radius: 8px;
     padding: 21px 24px 20px 25px;
     border-style: none;
+}
+
+.quick-list-btn:hover{
+    background-color: #FFF4E7;
+    color: #FF900E;
 }
 
 .quick-list-feature {
@@ -227,6 +241,12 @@ nav li {
     font-size: 25px;
 }
 
+.architect-features-image-btn:hover {
+    background-color: #FFF4E7;
+    color: rgba(102, 95, 95, 0.919);
+    border: 3px solid rgba(228, 194, 149, 0.87);
+}
+
 /* ---------------------------------------------- Some Facts Section Styles ------------------------------------------- */
 
 .some-fact-grid {
@@ -266,6 +286,15 @@ nav li {
     text-align: center;
 }
 
+.item:hover{
+    background-color: #a79191;
+    transform: scale(1.2) rotate(360deg);
+    transition: 4s all ease ;
+    cursor: pointer;
+    
+
+}
+
 
 .some-fact-item-hd {
     font-weight: 600;
@@ -284,9 +313,11 @@ nav li {
 
 }
 
+
 .some-fact-item-div {
     padding: 46px 37px 60px 36px;
 }
+
 
 /* ----------------------------------------------- Our Sponsors Section Styles ----------------------------------------*/
 
@@ -320,6 +351,11 @@ nav li {
     margin-left: 240px;
     margin-right: 240px;
     margin-bottom: 130px;
+}
+.images-png:hover{
+    width: 200px;
+    height: 70px;
+    
 }
 
 .images-png {
@@ -360,13 +396,19 @@ nav li {
 }
 
 .best-building-btn{
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 25px;
     color: #FFFFFF;
     background: #FF900E;
     border-radius: 8px;
     padding: 21px 24px 20px 25px;
     border-style: none;
+}
+
+.best-building-btn:hover{
+    background-color: #FFF4E7;
+    color: rgba(102, 95, 95, 0.919);
+    
 }
 /*-------------------------------------- Footer Section Styles ------------------------------------------------------ */
 
